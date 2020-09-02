@@ -11,11 +11,23 @@ on a string and an integer.
 x = 5
 y = "7"
 
-# Write a print statement that combines x + y into the integer value 12
+### Write a print statement that combines x + y into the integer value 12
 
-# YOUR CODE HERE
+# first way - cast y into a integer
+print(int(y) + x)
+
+# second way - manually change y type to integer
+y = 7
+print(x + y)
 
 
-# Write a print statement that combines x + y into the string value 57
+### Write a print statement that combines x + y into the string value 57
 
-# YOUR CODE HERE
+# first way - cast x and y to strings
+print(str(x) + str(y))
+
+# second way - manually change x and y types to strings
+x = '5'
+y = '7'
+
+print(x + y)
