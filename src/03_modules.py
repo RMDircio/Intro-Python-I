@@ -10,7 +10,7 @@ import sys
 
 # Print out the command line arguments in sys.argv, one per line:
 # This link was also helpful: https://www.pythonforbeginners.com/system/python-sys-argv
-print('This is the name of the script: ', sys.argv[0])
+print('This is the name of the script: ', sys.argv)
 print('Number of arguments: ', len(sys.argv))
 print('The arguments are: ' , str(sys.argv))
 

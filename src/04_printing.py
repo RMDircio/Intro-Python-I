@@ -12,7 +12,7 @@ z = "I like turtles!"
 # This was helpful: https://www.geeksforgeeks.org/python-output-formatting/
 
 print('y, and z:')
-print ('x is: %d, y is: %f, z is: %s' %(x, y, z))
+print ('x is: %d, y is: %f, z is: "%s"' %(x, y, z))
 
 # Use the 'format' string method to print the same thing
 print('x is: {}, y is: {}, z is: {}'.format(x, y, z))
