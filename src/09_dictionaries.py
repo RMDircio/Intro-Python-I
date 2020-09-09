@@ -48,11 +48,13 @@ waypoints.append(
 # waypoints list.
 
 print('Before change:', waypoints[0])
+
 # change longitude
 waypoints[0]['lon'] = -130
 
 #change name
 waypoints[0]['name'] = 'not a real place'
+
 print('After change: ', waypoints[0])
 
 # Write a loop that prints out all the field values for all the waypoints
